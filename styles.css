@@ -1,0 +1,18 @@
+body {
+  font-size: 13px;
+  font-family: Barlow Semi Condensed;
+  font-weight: 500, 600;
+}
+.container {
+  background: hsl(210, 46%, 95%);
+  margin: 5% 5%;
+}
+.box {
+  margin: 10% 5%;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+.box-5 {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
